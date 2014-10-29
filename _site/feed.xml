@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 29 Oct 2014 23:17:45 +1000</pubDate>
-    <lastBuildDate>Wed, 29 Oct 2014 23:17:45 +1000</lastBuildDate>
+    <pubDate>Wed, 29 Oct 2014 23:26:51 +1000</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2014 23:26:51 +1000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -64,7 +64,7 @@
 
 &lt;p&gt;Users could then &lt;/p&gt;
 
-&lt;ul class=&quot;square&quot;&gt;
+&lt;ul&gt;
   &lt;li&gt;Easily one click install, cross platform&lt;/li&gt;
   &lt;li&gt;Automatically sync their extensions across computers&lt;/li&gt;
   &lt;li&gt;Find DSNs through exploring app stores&lt;/li&gt;
@@ -78,10 +78,10 @@
 
 &lt;p&gt;The links below are people who have succesfully run node.js inside of the browser using different methods.&lt;/p&gt;
 
-&lt;ul class=&quot;square&quot;&gt;
-  &lt;li&gt;[Embedding and running node.js within a firefox xul extension](http://rawkes.com/articles/running-node.html)&lt;/li&gt;
-  &lt;li&gt;[node-chromify](https://github.com/iceddev/node-chromify)&lt;/li&gt;
-  &lt;li&gt;[chrome-node](https://github.com/danielconnor/chrome-node)&lt;/li&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rawkes.com/articles/running-node.html&quot;&gt;Embedding and running node.js within a firefox xul extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/iceddev/node-chromify&quot;&gt;node-chromify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/danielconnor/chrome-node&quot;&gt;chrome-node&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;

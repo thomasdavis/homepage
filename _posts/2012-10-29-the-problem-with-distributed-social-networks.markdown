@@ -47,11 +47,10 @@ So what if we could package DSNs servers in browser extensions themselves.
 
 Users could then 
 
-<ul class="square">
-  <li>Easily one click install, cross platform</li>
-  <li>Automatically sync their extensions across computers</li>
-  <li>Find DSNs through exploring app stores</li>
-</ul>
+
+* Easily one click install, cross platform
+* Automatically sync their extensions across computers
+* Find DSNs through exploring app stores
 
 Once installed, they could manage their own back ups or use services.
 
@@ -61,11 +60,9 @@ Fortunately there are small endaevours to run webservers inside of browser exten
 
 The links below are people who have succesfully run node.js inside of the browser using different methods.
 
-<ul class="square">
-  <li>[Embedding and running node.js within a firefox xul extension](http://rawkes.com/articles/running-node.html)</li>
-  <li>[node-chromify](https://github.com/iceddev/node-chromify)</li>
-  <li>[chrome-node](https://github.com/danielconnor/chrome-node)</li>
-</ul>
+* [Embedding and running node.js within a firefox xul extension](http://rawkes.com/articles/running-node.html)
+* [node-chromify](https://github.com/iceddev/node-chromify)
+* [chrome-node](https://github.com/danielconnor/chrome-node)
 
 #### Conclusion
 
