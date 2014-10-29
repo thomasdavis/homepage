@@ -2,35 +2,79 @@
 <html>
 
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Your awesome title</title>
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  <title>Your awesome title</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/material/css/ripples.min.css" rel="stylesheet">
+  <link href="/css/material/css/material-wfont.min.css" rel="stylesheet">
+  <link href="/css/snackbarjs/snackbar.css" rel="stylesheet">
+  <link href="/css/snackbarjs/themes-css/material.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/">
 
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://yourdomain.com/">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.1/underscore-min.js"></script>
 </head>
 
 
   <body>
 
-    <header class="site-header">
-
+    <header>
+  <div class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="javascript:void(0)">Thomas Davis</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="javascript:void(0)">Active</a></li>
+              <li><a href="javascript:void(0)">Link</a></li>
+              <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="javascript:void(0)">Action</a></li>
+                      <li><a href="javascript:void(0)">Another action</a></li>
+                      <li><a href="javascript:void(0)">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Dropdown header</li>
+                      <li><a href="javascript:void(0)">Separated link</a></li>
+                      <li><a href="javascript:void(0)">One more separated link</a></li>
+                  </ul>
+              </li>
+          </ul>
+          <!--
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="javascript:void(0)">Link</a></li>
+              <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="javascript:void(0)">Action</a></li>
+                      <li><a href="javascript:void(0)">Another action</a></li>
+                      <li><a href="javascript:void(0)">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="javascript:void(0)">Separated link</a></li>
+                  </ul>
+              </li>
+          </ul>
+          -->
+      </div>
+    </div>
+</div>
+<!--
   <div class="wrapper">
 
     <a class="site-title" href="/">Your awesome title</a>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
 
       <div class="trigger">
         
@@ -42,95 +86,469 @@
         
           
         
-          
-        
       </div>
     </nav>
 
   </div>
-
+-->
 </header>
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
+    <div class="container">
+        <div class="row">
+            <div class="well">
+             
+
+                    <div class="row">
+                        <div class="col-lg-8">
+
+                            <p>
+                                <img src="https://secure.gravatar.com/avatar/cff733cf90823edd218a834980379c61?s=170" style="float:left; margin-right: 15px; padding:2px; border: 1px solid #ddd;">Hey guys, I've been developing on the web for ~10 years. I have delved into many areas but of recent decided on focusing on front end web development. I'm currently living in Brisbane, Australia
+                            </p>
+                            <p>I work heavily with Javascript, RESTful API's, CSS/HTML</p>
+                            <p>Also check out my full <a href="http://registry.jsonresume.org/thomasdavis">resume</a> 
+                                </p><p style="font-weight: bold;">Also taking on contracts - Bitcoin accepted.</p>
+
+                            <p></p>
+                        </div>
+                    </div>
+
+            </div>
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="well">
+                        <legend>Open Source</legend>
+                            <p>Over the years I have had the pleasure and the privlege of using many open source libraries to accomplish things I've wanted to do. When writing code now I do not hesitate to make it readily available for other people as to continue the legacy of those before me who have paved the way through their dedication and generosity.</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="well  ">
+                            <legend>Top 20 Projects</legend>
+                        <div class="panel-body">
+                            <div class="my-repos">
+ 
+</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+<script type="text/template" id="repositories-table">
+  <table class="table libraries table-striped">
+    <thead>
+      <tr>
+        <th>Name</th><th>Language</th><th>Forks</th><th>Watchers</th><th>Open Issues</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% _.each(repos, function(repo){ %>
+      <tr>
+        <td><a href="<%= repo.html_url %>"><%= repo.name %></a></td>
+        <td><%= repo.language %></td>
+        <td><%= repo.forks %></td>
+        <td><%= repo.watchers %></td>
+        <td><%= repo.open_issues %></td>
+
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+
+</script>
+
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Hacktivism</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>We need to show respect to those who have fought for rights in the past and confer the same rights plus more to future generations.</p>
+                            <p>Recently I've been working with the <a href="http://taskforce.is">RRITF</a>(Rapid Response Internet Task Force) to raise awareness against government surveillance of its citizens.</p>
+
+                        </div>
+                    </div>
+                    <blockquote>
+                        <p>The price good men pay for indifference to public affairs is to be ruled by evil men.</p>
+                        <small>Plato</small>
+                    </blockquote>
+                </div>
+
+
+                <div class="col-lg-8">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Websites</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+
+                                <div class="col-lg-5">
+
+                                    <a href="http://thedaywefightback.org">
+                                        <img src="images/thedaywefightback.png">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h4>The Day We Fight Back</h4>
+                                    <a href="http://thedaywefightback.org">http://thedaywefightback.org</a>
+                                    <br>
+                                    <br>
+                                    <p>February 11th 2014 is the day the Internet rises up to fight back against mass surveillance. Join us.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+
+                                <div class="col-lg-5">
+
+                                    <a href="http://rally.stopwatching.us">
+                                        <img src="images/stopwatchingus.png">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h4>Stop Watching Us - Washington DC Rally</h4>
+                                    <a href="http://rally.stopwatching.us">http://rally.stopwatching.us</a>
+                                    <br>
+                                    <br>
+                                    <p>On October 26th, the 12th anniversary of the signing of the US Patriot Act, we're taking the next step and holding the largest rally yet against NSA surveillance.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+
+                                <div class="col-lg-5">
+
+                                    <a href="http://archive.1984day.com">
+                                        <img src="images/1984day.png">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7">
+
+                                    <h4>1984Day.com - Rally for Privacy on Sunday, 8/4</h4>
+                                    <a href="http://archive.1984day.com">http://archive.1984day.com</a>
+                                    <br>
+                                    <br>
+                                    <p>This Sunday – 8/4 – Rally Against Unconstitutional Surveillance Join thousands of participants in 1984 Day rallies around the country</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="row">
+
+                                <div class="col-lg-5">
+
+                                    <a href="http://defundthensa.com">
+                                        <img src="images/defundthensa.png">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7">
+
+                                    <h4>NSA surveillance program nearly defunded by the Amash amendment</h4>
+                                    <a href="http://defundthensa.com">http://defundthensa.com</a>
+                                    <br>
+                                    <br>
+                                    <p>This past July a critical vote nearly passed in Congress that could have defunded some of the NSA's surveillance program.</p>
+
+                                </div>
+                            </div>
+                            <div style="clear:both;"></div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div style="clear:both;"></div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Philosophy</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>My competing love in life is philosophy. I currently am reading through the classics, not bounded by era or region. I'm always trying to expand my literary circles so please get in contact.</p>
+                                <h4>Studies include</h4>
+                                <ul class="square">
+                                    <li>Ancient Greek Language</li>
+                                    <li>Mandarin (I want to work geo-politically)</li>
+                                    <li>Greek and Chinese classical text</li>
+                                    <li>All religious text</li>
+                                    <li>Continental / Analytical Philosophy</li>
+                                    <li>Psychoanalysis and psychology</li>
+                                    <li>Poetry</li>
+                                    <li>Politics (anarchist/communist/captitalist)</li>
+                                    <li>Physics, biology and neuroscience</li>
+                                    <li>Algorithms and programming theory</li>
+                                </ul>
+                                <p>The idea is that I'm writing a book with no title, yet.</p>
+
+                            </div>
+                        </div>
+                        <blockquote>
+                            <p>The value of life lies not in the length of days, but in the use we make of them... Whether you find satisfaction in life depends not on your tale of years, but on your will.</p>
+                            <small>Michel de Montaigne</small>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Books I've read</h3>
+                            </div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/pages/History-of-Chinese-Philosophy-Volume-1-The-P…od-of-the-Philosophers-from-the-Beginnings-to-Circa-100-BC/130030407162838">History of Chinese Philosophy, Volume 1: The Period of the Philosophers (from the Beginnings to Circa 100 B.C.)</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/I-Drink-Therefore-I-Am-A-Philosophers-Guide-to-Wine/472508982813737">I Drink Therefore I Am: A Philosopher's Guide to Wine</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Second-Manifesto-for-Philosophy/192113480934213">Second Manifesto for Philosophy</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Meditations-of-Marcus-Aurelius/108235572541259">The Meditations of Marcus Aurelius</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Ethics-An-Essay-on-the-Understanding-of-Evil/324226514346262">Ethics: An Essay on the Understanding of Evil</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Hesiods-Works-and-days/181655755310148">Hesiod's Works and days</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Siddhartha/109414109085595">Siddhartha</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Minima-moralia-reflections-on-a-damaged-life/388701904557029">Minima moralia : reflections on a damaged life</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Paul-Verlaine-Selected-Poems/318889824882679">Paul Verlaine Selected Poems</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Tao-Te-Ching/109477525745546">Tao Te Ching</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-G%C4%81th%C4%81s-of-Zarathustra/469002063162887">The Gāthās of Zarathustra</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Parallax-View/151036198380981">The Parallax View</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Reading-Greek-Text-and-Vocabulary/359392774159485">Reading Greek: Text and Vocabulary</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Integrated-Chinese-Workbook-Level-1-Part-1-Simplified-Characters/125789900922898">Integrated Chinese: Workbook Level 1, Part 1: Simplified Characters</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Analects-of-Confucius/107822939251487">The Analects of Confucius</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Nietzsche-and-the-Vicious-Circle/119936784844448">Nietzsche and the Vicious Circle</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Manfred/212118572258624">Manfred</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/On-Nietzsche/215027431968122">On Nietzsche</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Human-All-Too-Human/108045649217289">Human, All Too Human</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Birth-of-Tragedy/104098459625218">The Birth of Tragedy</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Twilight-of-the-Idols/108015562553864">Twilight of the Idols</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Ecce-homo/153443224803421">Ecce homo</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/On-the-Genealogy-of-Morality/106139676084060">On the Genealogy of Morality</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Antichrist/108048089215679">The Antichrist</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-New-York-poets-Frank-OHara-John-Ashbery-Kenneth-Koch-James-Schuyler-an-anthology/193140060827338">The New York poets : Frank O'Hara, John Ashbery, Kenneth Koch, James Schuyler : an anthology</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Selected-Poems/453359224717629">Selected Poems</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Epic-of-Gilgamesh-Book-1-in-the-Republic-Series/144937888994125">The Epic of Gilgamesh: Book 1 in the Republic Series</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Langston-Hughes/119813618190959">Langston Hughes</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Complete-Poems-of-Hart-Crane/200870583384601">The Complete Poems of Hart Crane</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Artaud-Anthology/472660539458803">Artaud Anthology</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-collected-poems-of-DH-Lawrence/576774635682552">The collected poems of D.H. Lawrence</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Melmoth-the-Wanderer/103134173060105">Melmoth the Wanderer</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Les-Chants-de-Maldoror/112295035448970">Les Chants de Maldoror</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Shakespeares-sonnets/104074849628120">Shakespeare's sonnets</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Goethes-Faust/104144026287455">Goethe's Faust</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Hyperion-H%C3%B6lderlin-novel/112034892141050">Hyperion (Hölderlin novel)</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Emerson/115092645334438">Emerson</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/A-History-of-My-Times/516791368342963">A History of My Times</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/History-of-the-Peloponnesian-War/112505238763273">History of the Peloponnesian War</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Trial-and-Death-of-Socrates/156880077794326">The Trial and Death of Socrates</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Lives-of-eminent-philosophers/103574573146270">Lives of eminent philosophers</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Beyond-Good-and-Evil/105450189488458">Beyond Good and Evil</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Communist-Manifesto/108719962485507">The Communist Manifesto</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Upanishads/275785495882805">The Upanishads</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Das-Kapital/105931019437213">Das Kapital</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Ethics-book/104061056296306">Ethics (book)</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Nietzsche-and-Philosophy/103982469639380">Nietzsche and Philosophy</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Essays-Montaigne/112521955425707">Essays (Montaigne)</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Quran/108636229167153">Quran</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Holy-Bible-King-James-version/399031583517056">Holy Bible, King James version</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Book-of-the-Courtier/108488649175592">The Book of the Courtier</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Gay-Science/105701329464862">The Gay Science</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/The-Will-to-Power/108941359125278">The Will to Power</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Thus-Spoke-Zarathustra/108126762540745">Thus Spoke Zarathustra</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <!-- container -->
+
+            <script>
+            var displayUserRepos = function() {
+
+                $.ajax('http://d2a0f5wdso4x2s.cloudfront.net/?username=thomasdavis', {
+                    dataType: "json",
+                    success: function(repos) {
+                        var sortedrepos = _.sortBy(repos.repos, function(repo) {
+                            return -repo.watchers;
+                        });
+                        sortedrepos = sortedrepos.splice(0, 20);
+                        console.log(sortedrepos);
+                        $('.my-repos').html(_.template($('#repositories-table').html(), {
+                            repos: sortedrepos
+                        }));
+                    }
+                });
+
+            };
+            displayUserRepos();
+            </script>
+            <script src="//static.getclicky.com/js" type="text/javascript"></script>
+            <script type="text/javascript">
+            try {
+                clicky.init(100539872);
+            } catch (e) {}
+            </script>
+            <noscript>
+                &lt;p&gt;
+                    &lt;img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100539872ns.gif" /&gt;
+                &lt;/p&gt;
+            </noscript>
+
+
+
+
+</div>
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well">
+      <h1>Thomas Davis</h1>
+    </div>
+  </div>
+  <div class="col-lg-8">
+    <div class="well">
+        <ul class="post-list">
+      
+        <li>
+          <span class="post-meta">Oct 30, 2014</span>
+
+          <h2>
+            <a class="post-link" href="/jekyll/update/2014/10/30/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+          </h2>
+        </li>
+      
+    </ul>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 30, 2014</span>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/10/30/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
 </div>
+<script type="text/template" id="repositories-table">
+  <table class="table libraries table-striped">
+    <thead>
+      <tr>
+        <th>Name</th><th>Language</th><th>Forks</th><th>Watchers</th><th>Open Issues</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% _.each(repos, function(repo){ %>
+      <tr>
+        <td><a href="<%= repo.html_url %>"><%= repo.name %></a></td>
+        <td><%= repo.language %></td>
+        <td><%= repo.forks %></td>
+        <td><%= repo.watchers %></td>
+        <td><%= repo.open_issues %></td>
 
-      </div>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+
+</script>
+<script>
+  var displayUserRepos = function() {
+
+      $.ajax('http://d2a0f5wdso4x2s.cloudfront.net/?username=thomasdavis', {
+          dataType: "json",
+          success: function(repos) {
+              var sortedrepos = _.sortBy(repos.repos, function(repo) {
+                  return -repo.watchers;
+              });
+              sortedrepos = sortedrepos.splice(0, 20);
+              console.log(sortedrepos);
+              $('.my-repos').html(_.template($('#repositories-table').html(), {
+                  repos: sortedrepos
+              }));
+          }
+      });
+
+  };
+  displayUserRepos();
+  </script>
     </div>
 
     <footer class="site-footer">
+  
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Your awesome title</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>Your awesome title</li>
-          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          
-          <li>
-            <a href="https://github.com/jekyll">
-              <span class="icon  icon--github">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
-                </svg>
-              </span>
-
-              <span class="username">jekyll</span>
-            </a>
-          </li>
-          
-
-          
-          <li>
-            <a href="https://twitter.com/jekyllrb">
-              <span class="icon  icon--twitter">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
-                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
-                </svg>
-              </span>
-
-              <span class="username">jekyllrb</span>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</p>
-      </div>
-    </div>
-
-  </div>
 
 </footer>
 
