@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 29 Oct 2014 23:27:38 +1000</pubDate>
-    <lastBuildDate>Wed, 29 Oct 2014 23:27:38 +1000</lastBuildDate>
+    <pubDate>Wed, 29 Oct 2014 23:31:11 +1000</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2014 23:31:11 +1000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -91,8 +91,8 @@
 &lt;p&gt;Look forward to hearing from those interested!&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Oct 2012 06:42:14 +1000</pubDate>
-        <link>http://yourdomain.com/distributed/social/networks/2012/10/30/the-problem-with-distributed-social-networks/</link>
-        <guid isPermaLink="true">http://yourdomain.com/distributed/social/networks/2012/10/30/the-problem-with-distributed-social-networks/</guid>
+        <link>http://yourdomain.com/the-problem-with-distributed-social-networks</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-problem-with-distributed-social-networks</guid>
         
         
         <category>distributed</category>

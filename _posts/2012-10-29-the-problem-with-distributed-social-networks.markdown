@@ -3,6 +3,7 @@ layout: post
 title:  "The problem with distributed social networks"
 date:   2012-10-29 20:42:14
 categories: distributed social networks
+permalink: the-problem-with-distributed-social-networks
 ---
 
 Recently the news on the internet has been that the government admits you don't own your [cloud data](https://www.eff.org/deeplinks/2012/10/governments-attack-cloud-computing).   Besides this scary totalitarian notion it seems absurd that a company such as Facebook will forever run the social lives of the entire world.
