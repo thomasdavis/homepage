@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Oct 2014 00:02:12 +1000</pubDate>
-    <lastBuildDate>Thu, 30 Oct 2014 00:02:12 +1000</lastBuildDate>
+    <pubDate>Thu, 30 Oct 2014 00:18:23 +1000</pubDate>
+    <lastBuildDate>Thu, 30 Oct 2014 00:18:23 +1000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -100,6 +100,55 @@
         <category>social</category>
         
         <category>networks</category>
+        
+      </item>
+    
+      <item>
+        <title>The obligatory refutation of RPC (Meteor.js)</title>
+        <description>&lt;p&gt;I have just been reading through all the discussion of Meteor.js on Hackernews and noticed that the discussion had very little critique.   So here are just a few articles to think about and at the very least this post hopes to facilitate some discussion of the cons of the Meteor.js approach. &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/viewer?a=v&amp;amp;q=cache:LylgA_fL8q4J:web.uvic.ca/~erikj/seng422/resources/rest_paper.pdf+&amp;amp;hl=en&amp;amp;pid=bl&amp;amp;srcid=ADGEESjYHfPLfpUiFhk4xLz6u9tSLXyTtcs6RVvV9ZdSqcNFjPNZ6iKmU5N7Ij0kYphZXmEqAL0VvVYGE9kT14vn7SveDWswWyL71LXn2neko4XEiM5PKaV_ZP5pH2kksIpaPgtcTgmA&amp;amp;sig=AHIEtbSBz804J-e96OlGr7I-LyV4ZDiLBQ&amp;amp;pli=1&quot;&gt;REST：An Alternative to RPC for Web Services Architecture&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As a front-end developer this publication articulates well some of my strongest concerns. &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://news.ycombinator.com/item?id=2316005&quot;&gt;Now.js released on Hackernews - 400 days ago&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A user &lt;code&gt;jerf&lt;/code&gt; gives an indepth critique and should proove a valuable insight.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://armstrongonsoftware.blogspot.com.au/2008/05/road-we-didnt-go-down.html&quot;&gt;Erlang - This the road we didn’t go down&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;More food for thought&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;my-thoughts&quot;&gt;My thoughts&lt;/h3&gt;
+
+&lt;p&gt;I just wrote this up in a matter of minutes so can’t do the duty of clarifying any refutations.&lt;/p&gt;
+
+&lt;p&gt;Though my quick points would be&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clients are now more tightly coupled to servers and actually influence the servers development&lt;/li&gt;
+  &lt;li&gt;Versioning of data/API’s becomes more complex&lt;/li&gt;
+  &lt;li&gt;Security becomes more complex&lt;/li&gt;
+  &lt;li&gt;We should be striving towards improving our understanding of REST to tackle the problems or at least theorizing how RPC can solve them.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nowjs.com/&quot;&gt;Now.js&lt;/a&gt; and &lt;a href=&quot;https://github.com/substack/dnode&quot;&gt;dnode&lt;/a&gt; have been around for a while now.  They have already managed to grow a culture of negative sentiments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hopefully some experts chime in and give us the other side of the story&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Apr 2012 00:00:00 +1000</pubDate>
+        <link>http://yourdomain.com/the-obligatory-refutation-of-rpc</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-obligatory-refutation-of-rpc</guid>
+        
         
       </item>
     
