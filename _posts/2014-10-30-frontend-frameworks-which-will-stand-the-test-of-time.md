@@ -14,13 +14,12 @@ So if you accept the fact that they are here to stay, then which framework shoul
 
 {% highlight javascript %}
 // Please don't nitpick what I called a framework here
-var frameworks = ['angular', 'backbone', 'polymer', 'react', 'flight', 'spine', 'ember', 'knockout', 'agility', 'canjs', 'maria', 'extjs', 'sammyjs', 'stapesjs', 'kendo']; // etc
+var frameworks = ['angular', 'backbone', 'polymer', 'react', 'flight', 'spine', 'ember', 'knockout', 'agility', 'canjs', 'maria', 'extjs', 'sammyjs', 'stapesjs', 'kendo'];
 {% endhighlight %}
 
 I would like to posit a more important question especially to those front end inclined.
 
-```js
-
+```javascript
 // Please don't nitpick what I called a framework here
-var frameworks = ['angular', 'backbone', 'polymer', 'react', 'flight', 'spine', 'ember', 'knockout', 'agility', 'canjs', 'maria', 'extjs', 'sammyjs', 'stapesjs', 'kendo']; // etc
+var frameworks = ['angular', 'backbone', 'polymer', 'react', 'flight', 'spine', 'ember', 'knockout', 'agility', 'canjs', 'maria', 'extjs', 'sammyjs', 'stapesjs', 'kendo'];
 ```
