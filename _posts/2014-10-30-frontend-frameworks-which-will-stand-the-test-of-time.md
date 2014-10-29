@@ -12,7 +12,7 @@ Regardless of your views about Javascript, it has made apps such as Facebook and
 
 So if you accept the fact that they are here to stay, then which framework should you choose for your next application? 
 
-``` js
+```javascript
 // Please don’t nitpick what I called a framework here
 var frameworks = [‘angular’, ‘backbone’, ‘polymer’, ‘react’, ‘flight’, ‘spine’, ‘ember’, ‘knockout’, ‘agility’, ‘canjs’, ‘maria’, ‘extjs’, ‘sammyjs’, ‘stapesjs’, ‘kendo’]; // etc
 ```
