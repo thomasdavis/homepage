@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The problem with distributed social networks"
-date:   2012-10-29 20:42:14
+date:   2012-10-29
 categories: distributed social networks
 permalink: the-problem-with-distributed-social-networks
 ---

@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Oct 2014 00:18:23 +1000</pubDate>
-    <lastBuildDate>Thu, 30 Oct 2014 00:18:23 +1000</lastBuildDate>
+    <pubDate>Thu, 30 Oct 2014 00:49:10 +1000</pubDate>
+    <lastBuildDate>Thu, 30 Oct 2014 00:49:10 +1000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -90,7 +90,7 @@
 
 &lt;p&gt;Look forward to hearing from those interested!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 30 Oct 2012 06:42:14 +1000</pubDate>
+        <pubDate>Mon, 29 Oct 2012 00:00:00 +1000</pubDate>
         <link>http://yourdomain.com/the-problem-with-distributed-social-networks</link>
         <guid isPermaLink="true">http://yourdomain.com/the-problem-with-distributed-social-networks</guid>
         
@@ -105,7 +105,9 @@
     
       <item>
         <title>The obligatory refutation of RPC (Meteor.js)</title>
-        <description>&lt;p&gt;I have just been reading through all the discussion of Meteor.js on Hackernews and noticed that the discussion had very little critique.   So here are just a few articles to think about and at the very least this post hopes to facilitate some discussion of the cons of the Meteor.js approach. &lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Note: This is a very old blog post from my younger years&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have just been reading through all the discussion of Meteor.js on Hackernews and noticed that the discussion had very little critique.   So here are just a few articles to think about and at the very least this post hopes to facilitate some discussion of the cons of the Meteor.js approach. &lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -148,6 +150,47 @@
         <pubDate>Wed, 11 Apr 2012 00:00:00 +1000</pubDate>
         <link>http://yourdomain.com/the-obligatory-refutation-of-rpc</link>
         <guid isPermaLink="true">http://yourdomain.com/the-obligatory-refutation-of-rpc</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Is the Internet an extension of human memory?</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Note: This is a very old blog post from my younger years&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Just my rough thoughts on excessive computing and human memory.   Possibly analogous to “are calculators bad for teaching math”.   Would love to hear thoughts on the matter, sorry in advance for my poor articulation.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;my-observation&quot;&gt;My observation&lt;/h3&gt;
+
+&lt;p&gt;Lately I’ve noticed when I wish to recall facts/knowledge I without hesitation open a new tab and perform a quick search.   Most of the time I find what I was after instantly.   What I find humorous is that when I go to recall the information my brain tells me to search and what keywords to search for.   &lt;/p&gt;
+
+&lt;p&gt;So effectively what I have done is when I first acquired the information I associated the “search” action with the memory instead of what I actually found.   Essentially creating a shortcut/middleman to a quality repository of information but possibly sacrificed through laziness my ability to actually absorb the information.&lt;/p&gt;
+
+&lt;p&gt;Using my memory normally I would generally look straight for the fact or information I was after.   This association of search terms is probably a symptom of laziness/convenience and I am unsure of whether it enhances or un-enhances my productivity.  &lt;/p&gt;
+
+&lt;p&gt;A simple/personal example would be when learning a programming language I sometimes don’t really bother learning the syntax or methods as I know I can simply search for them.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-dilemma&quot;&gt;My dilemma&lt;/h3&gt;
+
+&lt;p&gt;Now this can be most convenient in some circumstances because I can quickly find huge repositories of quality information.&lt;/p&gt;
+
+&lt;p&gt;Though as a biological human having epiphanies is a fast way to let your conscious evolve.    But to have a basic epiphany I believe humans by accident/coincidence put together premises they have acquired over an arbitrary amount of time.   But due to me not really committing information directly to my memory I have less premises to call on when thinking.   &lt;/p&gt;
+
+&lt;p&gt;I feel that my ability to be creative is impaired because all I am turning my memory into is the “Contents Page” of what I know.   So instead of a novel, I am a dictionary.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;A practical solution could be to make a much more conscious effort when consuming information to store the ideas behind it first then store the path to the full repository.   I presume this already happens quite a bit but realizing how many web sites I have visited makes me skeptical.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I would love to hear what you have to say on the subject!&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jul 2011 00:00:00 +1000</pubDate>
+        <link>http://yourdomain.com/is-the-internet-an-extension-of-human-memory</link>
+        <guid isPermaLink="true">http://yourdomain.com/is-the-internet-an-extension-of-human-memory</guid>
         
         
       </item>

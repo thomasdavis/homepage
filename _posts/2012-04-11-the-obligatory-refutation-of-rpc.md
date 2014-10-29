@@ -5,6 +5,9 @@ date:   2012-04-11
 permalink: the-obligatory-refutation-of-rpc
 ---
 
+**Note: This is a very old blog post from my younger years**
+
+
 I have just been reading through all the discussion of Meteor.js on Hackernews and noticed that the discussion had very little critique.   So here are just a few articles to think about and at the very least this post hopes to facilitate some discussion of the cons of the Meteor.js approach. 
 
 ----

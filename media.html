@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Media
 ---
 
 
@@ -18,17 +18,18 @@ title: Blog
   </div>
   <div class="col-lg-8">
     <div class="well">
-    <h3>Blog</h3>
+    <h3>Media</h3>
+    <p>Here are press articles and interviews I've been involved with.</p>
         <table class="table">
         <thead>
           <th>Date</th>
           <th>Post</th>
         </thead>
-      {% for post in site.posts %}
+      {% for media in site.data.media %}
         <tr>
-          <td><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></td>
+          <td><span class="post-meta">{{ media.date | date: "%b %-d, %Y" }}</span></td>
 
-           <td> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td>
+           <td> <a class="post-link" href="{{ media.url }}">{{ media.title }}</a></td>
         </tr>
       {% endfor %}
     </table>
