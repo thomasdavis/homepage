@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Portfolio
+
 ---
 
 
@@ -8,8 +10,7 @@ layout: default
                 <div class="col-lg-4">
                     <div class="well">
                             <legend>Portfolio</legend>
-                            <p>We need to show respect to those who have fought for rights in the past and confer the same rights plus more to future generations.</p>
-                            <p>Recently I've been working with the <a href="http://taskforce.is">RRITF</a>(Rapid Response Internet Task Force) to raise awareness against government surveillance of its citizens.</p>
+                            <p>This is a list of websites that I have did a large majority of the development and have been launched over the last few years. Please contact me if you would like to discuss any of them!</p>
 
                     </div>
                 </div>
@@ -18,11 +19,30 @@ layout: default
                 <div class="col-lg-8">
                     <div class="well">
                          <ul class="nav nav-tabs" style="margin-bottom: 15px;">
-                            <li class="active"><a href="#home" data-toggle="tab">Recent Websites</a></li>
-                            <li style="float: right;"><a href="https://github.com/thomasdavis" data-toggle="tab">See Full List</a></li>
+                            <li class="active"><a href="#home" data-toggle="tab">All Websites</a></li>
                         </ul>
                         <div class="panel-body">
                           {% for site in site.data.portfolio.recent %}
+                            <div class="row">
+
+                                <div class="col-lg-4 col-sm-4">
+
+                                    <a href="{{ site.url }}">
+                                        <img  class="well" style="width: 100%;" src="http://api.screenshotmachine.com/?key=afd4d4&size=N&url={{ site.url }}">
+                                    </a>
+                                </div>
+                                <div class="col-lg-8 col-sm-8">
+                                    <h4>{{ site.name }}</h4>
+                                    <a href="{{ site.url }}">{{ site.url }}</a>
+                                    <br>
+                                    <br>
+                                    <p>{{ site.description }}</p>
+                                </div>
+                            </div>
+                            <hr>
+                            {% endfor %}
+
+                          {% for site in site.data.portfolio.other %}
                             <div class="row">
 
                                 <div class="col-lg-4 col-sm-4">
