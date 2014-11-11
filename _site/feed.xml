@@ -4,11 +4,53 @@
     <title>Thomas Davis - Front end web developer</title>
     <description>Thomas Davis is a front end web developer from Brisbane, Australia.   Works heavily in Javascript and CSS/HTML.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Oct 2014 00:49:10 +1000</pubDate>
-    <lastBuildDate>Thu, 30 Oct 2014 00:49:10 +1000</lastBuildDate>
+    <link>http://thomasdav.is/</link>
+    <atom:link href="http://thomasdav.is/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 11 Nov 2014 21:58:55 +1000</pubDate>
+    <lastBuildDate>Tue, 11 Nov 2014 21:58:55 +1000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Frontend Frameworks - Which will stand the test of time?</title>
+        <description>&lt;p&gt;We have seen an exponential increase in the number of startups over the last few years, with an app for everything. I was going to make a joke about even having “Uber for dog walking” but it actually &lt;a href=&quot;http://techcrunch.com/2013/04/26/swifto-raises-2-5m-from-benchmark-to-be-the-uber-for-dog-walkin/&quot;&gt;exists&lt;/a&gt; so I guess the joke is on me. One of the best ways to make yourself stand out from the other 43 alternatives to your product is to really nail the user experience.&lt;/p&gt;
+
+&lt;p&gt;Regardless of your views about Javascript, it has made apps such as Facebook and Google Docs a pleasure to use. This post assumes Javascript apps are here to stay for quite a while longer, I will write another post about what it will take for a new paradigm to usurp the UI throne.&lt;/p&gt;
+
+&lt;p&gt;So if you accept the fact that they are here to stay, then which framework should you choose for your next application? &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Please don&amp;#39;t nitpick what I called a framework here&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;frameworks&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;angular&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;backbone&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;polymer&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;react&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;flight&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;spine&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;ember&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;knockout&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;agility&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;canjs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;maria&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;extjs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;sammyjs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;stapesjs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;kendo&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I would like to posit a more important question, especially to those whose careers revolve around using any of these frameworks. &lt;/p&gt;
+
+&lt;h3 id=&quot;which-will-stand-the-test-of-time&quot;&gt;Which will stand the test of time?&lt;/h3&gt;
+
+&lt;p&gt;Many of these frameworks differ dramatically in their principles. What I mean by principles is that there is most likely only one-ish way that it will make sense to do things going into the future e.g. someone figured out at some stage that web servers shouldn’t block when waiting for I/O.  I personally do not know which ones are heading in the right direction but I do know only a few of these frameworks will influence the real future of UI’s.&lt;/p&gt;
+
+&lt;p&gt;I’m sure there is a lot of overlap and we can expect development to converge on some best practises. Though if you are in the Angular camp, you would think that HTML is to be extended and agree with their statement;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Other frameworks deal with HTML’s shortcomings by either abstracting away HTML, CSS, and/or JavaScript or by providing an imperative way for manipulating the DOM. Neither of these address the root problem that HTML was not designed for dynamic views.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Given this situation, if you spent the next few years learning one way or the other and it turns out that you are wrong, your career prospects will be diminished.&lt;/p&gt;
+
+&lt;p&gt;I’m looking to hear well thought out opinions on the matter, what will frameworks really look like in the next 5-10 years?&lt;/p&gt;
+</description>
+        <pubDate>Thu, 30 Oct 2014 00:00:00 +1000</pubDate>
+        <link>http://thomasdav.is/frontend-frameworks-which-will-stand-the-test-of-time</link>
+        <guid isPermaLink="true">http://thomasdav.is/frontend-frameworks-which-will-stand-the-test-of-time</guid>
+        
+        
+        <category>frontend</category>
+        
+        <category>frameworks</category>
+        
+        <category>backbone</category>
+        
+        <category>angular</category>
+        
+      </item>
     
       <item>
         <title>The problem with distributed social networks</title>
@@ -91,8 +133,8 @@
 &lt;p&gt;Look forward to hearing from those interested!&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Oct 2012 00:00:00 +1000</pubDate>
-        <link>http://yourdomain.com/the-problem-with-distributed-social-networks</link>
-        <guid isPermaLink="true">http://yourdomain.com/the-problem-with-distributed-social-networks</guid>
+        <link>http://thomasdav.is/the-problem-with-distributed-social-networks</link>
+        <guid isPermaLink="true">http://thomasdav.is/the-problem-with-distributed-social-networks</guid>
         
         
         <category>distributed</category>
@@ -148,8 +190,8 @@
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Apr 2012 00:00:00 +1000</pubDate>
-        <link>http://yourdomain.com/the-obligatory-refutation-of-rpc</link>
-        <guid isPermaLink="true">http://yourdomain.com/the-obligatory-refutation-of-rpc</guid>
+        <link>http://thomasdav.is/the-obligatory-refutation-of-rpc</link>
+        <guid isPermaLink="true">http://thomasdav.is/the-obligatory-refutation-of-rpc</guid>
         
         
       </item>
@@ -189,8 +231,8 @@
 &lt;p&gt;&lt;em&gt;I would love to hear what you have to say on the subject!&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jul 2011 00:00:00 +1000</pubDate>
-        <link>http://yourdomain.com/is-the-internet-an-extension-of-human-memory</link>
-        <guid isPermaLink="true">http://yourdomain.com/is-the-internet-an-extension-of-human-memory</guid>
+        <link>http://thomasdav.is/is-the-internet-an-extension-of-human-memory</link>
+        <guid isPermaLink="true">http://thomasdav.is/is-the-internet-an-extension-of-human-memory</guid>
         
         
       </item>
