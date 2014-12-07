@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Frontend Frameworks - Which will stand the test of time?"
-date:   2014-10-30
+date:   2014-12-02
 categories: frontend frameworks backbone angular
 permalink: frontend-frameworks-which-will-stand-the-test-of-time
 ---
