@@ -5,81 +5,23 @@ title: Portfolio
 ---
 
 
-
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="well">
-                            <legend>Portfolio</legend>
-                            <p>This is a list of websites that I have did a large majority of the development and have been launched over the last few years. Please contact me if you would like to discuss any of them!</p>
-
-                    </div>
-                </div>
+ <h3>Portfolio</h3>
 
 
-                <div class="col-lg-8">
-                    <div class="well">
-                         <ul class="nav nav-tabs" style="margin-bottom: 15px;">
-                            <li class="active"><a href="#home" data-toggle="tab">All Websites</a></li>
-                        </ul>
-                        <div class="panel-body">
-                          {% for site in site.data.portfolio.recent %}
-                            <div class="row">
-
-                                <div class="col-lg-4 col-sm-4">
-
-                                    <a href="{{ site.url }}">
-                                        <img  class="well" style="width: 100%;" src="http://api.screenshotmachine.com/?key=afd4d4&size=N&url={{ site.url }}">
-                                    </a>
-                                </div>
-                                <div class="col-lg-8 col-sm-8">
-                                    <h4>{{ site.name }}</h4>
-                                    <a href="{{ site.url }}">{{ site.url }}</a>
-                                    <br>
-                                    <br>
-                                    <p>{{ site.description }}</p>
-                                </div>
-                            </div>
-                            <hr>
+        <table class="u-full-width">
+        <thead>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Website</th>
+        </thead>
+        <tbody>
+                          {% for site in site.data.portfolio %}
+                          <tr>
+                                    <td>{{ site.name }}</td>
+                                    <td>{{ site.role }}</td>
+                                    <td><a href="{{ site.url }}">{{ site.url }}</a></td>
+                                    </tr>
                             {% endfor %}
+                            </tbody></table>
 
-                          {% for site in site.data.portfolio.other %}
-                            <div class="row">
-
-                                <div class="col-lg-4 col-sm-4">
-
-                                    <a href="{{ site.url }}">
-                                        <img  class="well" style="width: 100%;" src="http://api.screenshotmachine.com/?key=afd4d4&size=N&url={{ site.url }}">
-                                    </a>
-                                </div>
-                                <div class="col-lg-8 col-sm-8">
-                                    <h4>{{ site.name }}</h4>
-                                    <a href="{{ site.url }}">{{ site.url }}</a>
-                                    <br>
-                                    <br>
-                                    <p>{{ site.description }}</p>
-                                </div>
-                            </div>
-                            <hr>
-                            {% endfor %}
-                            <div style="clear:both;"></div>
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style="clear:both;"></div>
-
-
-
-
-            </div>
-            <!-- container -->
-
-
-
-
-</div>
+    

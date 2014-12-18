@@ -1,0 +1,53 @@
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oswald';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body {
+  overflow-y: scroll;
+  font-family: "Lato";
+  font-size: 18px;
+}
+.mainmenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mainmenu li {
+  float: left;
+  margin-right: 10px;
+}
+.mainmenu li a {
+
+  font-family: 'Oswald';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header {
+  padding: 50px 0;
+}
+.portfolioitem {
+  width: 180px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #333;
+  margin: 1.5em 0;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D"
+}
+blockquote:before {
+  color: #333;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}

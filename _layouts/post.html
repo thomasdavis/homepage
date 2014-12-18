@@ -3,9 +3,7 @@ layout: default
 ---
 
 <style>
-.blogpost {
-  font-family: 'Lato', sans-serif;
-}
+
 .post {
   font-size: 18px;
   line-height: 1.5em;
@@ -19,26 +17,17 @@ layout: default
 .post p {
   margin: 20px 0;
 }
-
+#disqus_thread {
+  font-family: "Lato" !important;
+}
 </style>
 
 <div class="row well">
   <div class=" blogpost">
     <div class="col-lg-8 col-lg-offset-2">
-      <div class="row">
-        <div class="col-lg-4 col-lg-offset-4">
-            <div style="text-align: center;">
-            <img src="https://secure.gravatar.com/avatar/cff733cf90823edd218a834980379c61?s=170" class="img-circle" style=" padding:2px; border: 1px solid #ddd; width: 100px;">
-              <h2>Thomas Davis</h2>
-              <p>Founder of cdnjs.com, backbonetutorials.com</p>
-              <p>Work with Drones, Open Source, Tech Policy, Javascript and Music. </p>
-            </div>
-        </div>
-      </div>
+
       <div class="post ">
-        <header class="post-header">
-          <h1 class="post-title">{{ page.title }}</h1>
-        </header>
+          <h2 class="post-title">{{ page.title }}</h2>
 
         <article class="post-content">
           {{ content }}

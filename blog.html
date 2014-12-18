@@ -2,37 +2,20 @@
 layout: default
 title: Blog
 ---
-
-
-<div class="row">
-  <div class="col-lg-4">
-    <div class="well">
-      <div style="text-align: center;">
-     <img src="https://secure.gravatar.com/avatar/cff733cf90823edd218a834980379c61?s=170" class="img-circle" style=" padding:2px; border: 1px solid #ddd; width: 100px;">
-      <h2>Thomas Davis</h2>
-      <p>Work with Drones, Open Source, Tech Policy, Javascript and Music. </p>
-      </div>
-      <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_vertical_follow_toolbox"></div>
-    </div>
-  </div>
-  <div class="col-lg-8">
-    <div class="well">
-    <h3>Blog</h3>
-        <table class="table">
+    
+<h3>Blog</h3>
+        <table class="u-full-width">
         <thead>
-          <th>Date</th>
+          <th width="120px">Date</th>
           <th>Post</th>
         </thead>
       {% for post in site.posts %}
         <tr>
-          <td><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></td>
+          <td width="100px;"><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></td>
 
            <td> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td>
         </tr>
       {% endfor %}
     </table>
-    </div>
-  </div>
 
-</div>
+

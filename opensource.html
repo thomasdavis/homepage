@@ -1,0 +1,88 @@
+---
+layout: default
+title: Open Source
+
+---
+    <h3>Open Source</h3>
+<div class="my-repos">
+</div>
+
+
+<script type="text/template" id="repositories-table">
+  <table class="table libraries  u-full-width">
+    <thead>
+      <tr>
+        <th>Name</th><th>Language</th><th>Forks</th><th>Watchers</th><th>Open Issues</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% _.each(repos, function(repo){ %>
+      <tr>
+        <td><a href="<%= repo.html_url %>"><%= repo.name %></a></td>
+        <td><%= repo.language %></td>
+        <td><%= repo.forks %></td>
+        <td><%= repo.watchers %></td>
+        <td><%= repo.open_issues %></td>
+
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+
+</script>
+
+   
+                       
+
+<script type="text/template" id="repositories-table">
+  <table class="table libraries table-striped">
+    <thead>
+      <tr>
+        <th>Name</th><th>Language</th><th>Forks</th><th>Watchers</th><th>Open Issues</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% _.each(repos, function(repo){ %>
+      <tr>
+        <td><a href="<%= repo.html_url %>"><%= repo.name %></a></td>
+        <td><%= repo.language %></td>
+        <td><%= repo.forks %></td>
+        <td><%= repo.watchers %></td>
+        <td><%= repo.open_issues %></td>
+
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+
+</script>
+<script>
+  var displayUserRepos = function() {
+
+      $.ajax('http://d2a0f5wdso4x2s.cloudfront.net/?username=thomasdavis', {
+          dataType: "json",
+          success: function(repos) {
+              var sortedrepos = _.sortBy(repos.repos, function(repo) {
+                  return -repo.watchers;
+              });
+              
+              var notmine = ['best-practices', 'OpenWireless', 'https-everywhere', 'congress', 'congress-legislators'];
+              sortedrepos = _.filter(sortedrepos, function (repo) {
+
+                if(notmine.indexOf(repo.name) !== -1) {
+                  return false;
+                }
+                return true;
+              });
+              sortedrepos = sortedrepos.splice(0, 10);
+
+              $('.my-repos').html(_.template($('#repositories-table').html(), {
+                  repos: sortedrepos
+              }));
+          }
+      });
+
+  };
+  displayUserRepos();
+  </script>
+

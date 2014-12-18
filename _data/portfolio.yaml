@@ -1,61 +1,94 @@
-recent:
-  - name: Cdnjs
-    url: https://cdnjs.com
-    description: Following Google’s CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.
+- name: Cdnjs
+  url: https://cdnjs.com
+  role: Co-Founder
+  description: Following Google’s CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.
 
-  - name: Earbits
-    url: http://www.earbits.com
-    description: Company is currently getting acquired, I will not be staying on board. Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.
+- name: Earbits
+  url: http://www.earbits.com
+  role: CTO
+  description: Company is currently getting acquired, I will not be staying on board. Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.
 
-
-  - name: JSON Resume
-    url: https://jsonresume.org
-    description: JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can't be a common standard for writing a resume that can be extended with an ecosystem of open source tools.
-
-
-  - name: EFF Action Center
-    url: https://act.eff.org
-    description: Hired to take EFF's campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.
-
-  - name: Backbone Tutorials
-    url: http://backbonetutorials.com
-    description: I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.
+- name: Libscore
+  url: http://libscore.com
+  role: Co-Founder
+  description: Company is currently getting acquired, I will not be staying on board. Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.
 
 
-  - name: Drone Hire
-    url: http://www.dronehire.org
-    description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
+- name: JSON Resume
+  url: https://jsonresume.org
+  role: Co-Founder
+  description: JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can't be a common standard for writing a resume that can be extended with an ecosystem of open source tools.
 
 
-  - name: The Day We Fight Back
-    url: https://thedaywefightback.org/international/
-    description: February 11th 2014 is the day the Internet rises up to fight back against mass surveillance. 
+- name: EFF Action Center
+  url: https://act.eff.org
+  role: Contractor
+  description: Hired to take EFF's campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.
 
-other:   
-  - name: Stop The Spies
-    url: https://stopthespies.org/
-    description: Innocent or not, you will be spied on if Australia's bill passes. Under the new data retention proposal, details of everything you do online or on your phone would be collected and stored. But we can stop it.
+- name: Backbone Tutorials
+  url: http://backbonetutorials.com
+  role: Founder
+  description: I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.
 
-  - name: Approachio
-    url: https://approachio.com
-    description: Approachio is your standard question and answer site but focusing on quantifiable answers. Submit your own answers and optionally include your justifications. Over time we should see what the average answer is. You can also sort and filter by what people estimate and learn more about why they selected their answers.
 
-  - name: Kalei Style Guide
-    url: http://kaleistyleguide.com
-    description: This project aims at making sure your style sheets are fully documented whilst being synchronized with your webpages styles. To do this it actually uses your live stylesheets in so that at anytime you can review how your styleguide looks.
+- name: Drone Hire
+  url: http://www.dronehire.org
+  role: Co-Founder
+  description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
 
-  - name: Mention Bin
-    url: https://mentionbin.com/
-    description: Mention bin allows anyone to create a campaign page, that lets people target their legislators with a custom message
 
-  - name: Stop Watching Us
-    url: https://rally.stopwatching.us
-    description: On October 26th, the 12th anniversary of the signing of the US Patriot Act, we're taking the next step and holding the largest rally yet against NSA surveillance.
+- name: Git Gossip
+  url: https://gitgossip.com
+  role: Founder
+  description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
 
-  - name: 1984Day
-    url: https://archive.1984day.com
-    description: This Sunday – 8/4 – Rally Against Unconstitutional Surveillance Join thousands of participants in 1984 Day rallies around the country
 
-  - name: Defund The NSA
-    url: http://defundthensa.com
-    description: This past July a critical vote nearly passed in Congress that could have defunded some of the NSA's surveillance program.
+- name: Colons.io
+  url: https://colons.io
+  role: Co-Founder
+  description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
+
+- name: Thinking Remote
+  url: https://thinkingremote.com
+  role: Co-Founder
+  description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
+
+
+- name: The Day We Fight Back
+  url: https://thedaywefightback.org/
+  role: Volunteer
+  description: February 11th 2014 is the day the Internet rises up to fight back against mass surveillance. 
+
+- name: Stop The Spies
+  role: Volunteer
+  url: https://stopthespies.org/
+
+- name: Approachio
+  role: Co-Founder
+  url: https://approachio.com
+  description: Approachio is your standard question and answer site but focusing on quantifiable answers. Submit your own answers and optionally include your justifications. Over time we should see what the average answer is. You can also sort and filter by what people estimate and learn more about why they selected their answers.
+
+- name: Kalei Style Guide
+  role: Founder
+  url: http://kaleistyleguide.com
+  description: This project aims at making sure your style sheets are fully documented whilst being synchronized with your webpages styles. To do this it actually uses your live stylesheets in so that at anytime you can review how your styleguide looks.
+
+- name: Mention Bin
+  role: Founder
+  url: https://mentionbin.com/
+  description: Mention bin allows anyone to create a campaign page, that lets people target their legislators with a custom message
+
+- name: Stop Watching Us
+  role: Volunteer
+  url: https://rally.stopwatching.us
+  description: On October 26th, the 12th anniversary of the signing of the US Patriot Act, we're taking the next step and holding the largest rally yet against NSA surveillance.
+
+- name: 1984Day
+  role: Volunteer
+  url: https://archive.1984day.com
+  description: This Sunday – 8/4 – Rally Against Unconstitutional Surveillance Join thousands of participants in 1984 Day rallies around the country
+
+- name: Defund The NSA
+  role: Volunteer
+  url: http://defundthensa.com
+  description: This past July a critical vote nearly passed in Congress that could have defunded some of the NSA's surveillance program.
