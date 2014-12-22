@@ -6,9 +6,32 @@
 </description>
     <link>http://thomasdav.is/</link>
     <atom:link href="http://thomasdav.is/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Dec 2014 15:32:16 +1000</pubDate>
-    <lastBuildDate>Sun, 21 Dec 2014 15:32:16 +1000</lastBuildDate>
+    <pubDate>Mon, 22 Dec 2014 14:07:10 +1000</pubDate>
+    <lastBuildDate>Mon, 22 Dec 2014 14:07:10 +1000</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Introducing Libscore</title>
+        <description>&lt;p&gt;A few months ago I met a developer called &lt;a href=&quot;http://julian.com&quot;&gt;Julian Shapiro&lt;/a&gt; who had just released &lt;a href=&quot;http://julian.com/research/velocity/&quot;&gt;Velocity.js&lt;/a&gt;. After a bit of talking, he invited me to checkout this cool project he was working on called &lt;a href=&quot;http://libscore.com&quot;&gt;Libscore&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Every month, Libscore scans the the top million sites on the web to determine which third-party JavaScript libraries are installed on each site.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He invited me to help out and I ended up building out the public API and also running the crawlers on sponsored Digital Ocean servers.&lt;/p&gt;
+
+&lt;p&gt;Julian has wrote a much better post about Libscore titled &lt;a href=&quot;https://medium.com/@Shapiro/introducing-libscore-com-be93165fa497&quot;&gt;Introducing Libscore&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you have any great ideas for integrating with the &lt;a href=&quot;https://github.com/julianshapiro/libscore&quot;&gt;API&lt;/a&gt;, please let me know!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Dec 2014 00:00:00 +1000</pubDate>
+        <link>http://thomasdav.is/introducing-libscore</link>
+        <guid isPermaLink="true">http://thomasdav.is/introducing-libscore</guid>
+        
+        
+        <category>libscore</category>
+        
+      </item>
     
       <item>
         <title>Frontend Frameworks - Which will stand the test of time?</title>
