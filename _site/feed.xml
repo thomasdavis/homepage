@@ -6,9 +6,78 @@
 </description>
     <link>http://thomasdav.is/</link>
     <atom:link href="http://thomasdav.is/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Dec 2014 14:07:10 +1000</pubDate>
-    <lastBuildDate>Mon, 22 Dec 2014 14:07:10 +1000</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 12:59:00 +1000</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2014 12:59:00 +1000</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>2014 - Side Projects</title>
+        <description>&lt;p&gt;Recently saw &lt;a href=&quot;http://www.ianww.com/blog/2014/12/30/this-year-in-side-projects-2014/&quot;&gt;This Year in Side Projects&lt;/a&gt; on Hacker News and thought it a very cool of way reviewing what I did this year and also sharing it at the same time.&lt;/p&gt;
+
+&lt;h4 id=&quot;drone-hire&quot;&gt;Drone Hire&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;January&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dronehire.org&quot;&gt;Drone Hire&lt;/a&gt; was a project started by my housemate to become the “go to” global directory for commercial drone services. He wanted to add a user registration system and invited me to be a co-founder of which I happily obliged. We launched the new website sometime in January and are now sending hundreds of quotes a month. &lt;/p&gt;
+
+&lt;h4 id=&quot;the-day-we-fight-back&quot;&gt;The Day We Fight Back&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;February&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://thedaywefightback.org&quot;&gt;The Day We Fight Back&lt;/a&gt; was a one-day global protest against mass surveillance by the US National Security Agency. I worked on a large majority of the technical implementation and thoroughly enjoyed watching the hundreds of thousands of calls and emails going through the system in real time. Trying to build and market a website that has to get millions of views in just one day is a very interesting challenge. It is an absolutely joy to work alongside EFF!&lt;/p&gt;
+
+&lt;h4 id=&quot;congress-forms&quot;&gt;Congress Forms&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;April&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/EFForg/congress-forms&quot;&gt;Congress Forms&lt;/a&gt; was a project co-developed by many civic hacking organizations that aims to generate an API for emailing congress. US legislators don’t actually have public facing email addresses, so the only way to email them is via their contact forms. The project takes on the huge goal of making it possible to auto-fill those contact forms for over 500 legislators programatically. At the project’s peak we had over 150 developers committing to the &lt;a href=&quot;http://sunlightfoundation.com/blog/2014/04/21/how-sunlight-eff-and-150-civic-hackers-reverse-engineered-congress-email-system-in-two-days/&quot;&gt;repo in one day&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;json-resume&quot;&gt;JSON Resume&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;June&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jsonresume.org&quot;&gt;JSON Resume&lt;/a&gt; started off as just a bit of fun but it got leaked to Hacker News which drove over 40,000 visitors in 24 hours. Since then we’ve had a vibrant community form with many people chiming in on the specification and many developers building out themes.&lt;/p&gt;
+
+&lt;h4 id=&quot;cdnjs-auto-update&quot;&gt;CDNJS Auto Update&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;July&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Manually updating library versions on &lt;a href=&quot;https://cdnjscom&quot;&gt;CDNJS&lt;/a&gt; over the years has been a painful experience. We decided to try write an auto update system which pulls new versions from NPM and Git tags. It works okay-ish but definitely needs some more development. A huge shout out to &lt;a href=&quot;https://twitter.com/peterdavehello&quot;&gt;Peter Dave Hello&lt;/a&gt; who has really been running the show this year in regards to managing the project.&lt;/p&gt;
+
+&lt;h4 id=&quot;stop-the-spies&quot;&gt;Stop The Spies&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;September&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;For those reading, I actually live in Australia although my active involvement in campaigns against the NSA might suggest otherwise. This year, the Australian government has also started introducing mandatory data retention laws. So we organized a team of volunteers to run an awarenesss campaign called &lt;a href=&quot;https://stopthespies&quot;&gt;Stop The Spies&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;libscore&quot;&gt;Libscore&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;December&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://libscore.com&quot;&gt;Libscore&lt;/a&gt; was actually the brain child of &lt;a href=&quot;http://julian.com&quot;&gt;Julian Shapiro&lt;/a&gt; who is also the creator of &lt;a href=&quot;http://julian.com/research/velocity/&quot;&gt;Velocity.js&lt;/a&gt;. I was asked to create the RESTful API for the data set, one thing led to another and now I’m also in charge of running the crawl against the top one million websites. &lt;/p&gt;
+
+&lt;h4 id=&quot;smaller-projects&quot;&gt;Smaller projects&lt;/h4&gt;
+
+&lt;p&gt;I pretty much dropped all my other hobbies this year and was developing daily. Other small projects included;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitgossip&quot;&gt;Git Gossip&lt;/a&gt; - mailing list of posts by the top 1000 most followed Githubbers&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thinkingremote.com&quot;&gt;Thinking Remote&lt;/a&gt; - Just a simple resource hub for remote workers&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://approachio.com/&quot;&gt;Approachio&lt;/a&gt; - Yahoo answers for quantitative questions&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://colons.io&quot;&gt;Colons.io&lt;/a&gt; - Twitter pinboards based off using colons in your tweets&lt;/li&gt;
+  &lt;li&gt;Political campaigns and tools such as &lt;a href=&quot;https://mentionbin.com&quot;&gt;Mention Bin&lt;/a&gt; and &lt;a href=&quot;https://shutthebackdoor.net/&quot;&gt;Shut The Back Door&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;2015&lt;/h4&gt;
+
+&lt;p&gt;I’d like focus all my efforts on creating a profitable side project.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Dec 2014 00:00:00 +1000</pubDate>
+        <link>http://thomasdav.is/2014-side-projects</link>
+        <guid isPermaLink="true">http://thomasdav.is/2014-side-projects</guid>
+        
+        
+      </item>
     
       <item>
         <title>Introducing Libscore</title>
