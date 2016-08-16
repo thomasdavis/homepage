@@ -6,9 +6,9 @@
 </description>
     <link>http://thomasdav.is/</link>
     <atom:link href="http://thomasdav.is/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 31 Dec 2014 13:12:18 +1000</pubDate>
-    <lastBuildDate>Wed, 31 Dec 2014 13:12:18 +1000</lastBuildDate>
-    <generator>Jekyll v2.5.1</generator>
+    <pubDate>Tue, 16 Aug 2016 12:39:28 +1000</pubDate>
+    <lastBuildDate>Tue, 16 Aug 2016 12:39:28 +1000</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>2014 - Side Projects</title>
@@ -18,7 +18,7 @@
 
 &lt;p&gt;&lt;em&gt;January&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dronehire.org&quot;&gt;Drone Hire&lt;/a&gt; was a project started by my housemate to become the “go to” global directory for commercial drone services. He wanted to add a user registration system and invited me to be a co-founder of which I happily obliged. We launched the new website sometime in January and are now sending hundreds of quotes a month. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dronehire.org&quot;&gt;Drone Hire&lt;/a&gt; was a project started by my housemate to become the “go to” global directory for commercial drone services. He wanted to add a user registration system and invited me to be a co-founder of which I happily obliged. We launched the new website sometime in January and are now sending hundreds of quotes a month.&lt;/p&gt;
 
 &lt;h4 id=&quot;the-day-we-fight-back&quot;&gt;The Day We Fight Back&lt;/h4&gt;
 
@@ -54,7 +54,7 @@
 
 &lt;p&gt;&lt;em&gt;December&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://libscore.com&quot;&gt;Libscore&lt;/a&gt; was actually the brain child of &lt;a href=&quot;http://julian.com&quot;&gt;Julian Shapiro&lt;/a&gt; who is also the creator of &lt;a href=&quot;http://julian.com/research/velocity/&quot;&gt;Velocity.js&lt;/a&gt;. I was asked to create the RESTful API for the data set, one thing led to another and now I’m also in charge of running the crawl against the top one million websites. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://libscore.com&quot;&gt;Libscore&lt;/a&gt; was actually the brain child of &lt;a href=&quot;http://julian.com&quot;&gt;Julian Shapiro&lt;/a&gt; who is also the creator of &lt;a href=&quot;http://julian.com/research/velocity/&quot;&gt;Velocity.js&lt;/a&gt;. I was asked to create the RESTful API for the data set, one thing led to another and now I’m also in charge of running the crawl against the top one million websites.&lt;/p&gt;
 
 &lt;h4 id=&quot;smaller-projects&quot;&gt;Smaller projects&lt;/h4&gt;
 
@@ -72,7 +72,7 @@
 
 &lt;p&gt;I’d like focus all my efforts on creating a profitable side project.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 30 Dec 2014 00:00:00 +1000</pubDate>
+        <pubDate>Tue, 30 Dec 2014 00:00:00 +1100</pubDate>
         <link>http://thomasdav.is/2014-side-projects</link>
         <guid isPermaLink="true">http://thomasdav.is/2014-side-projects</guid>
         
@@ -93,7 +93,7 @@
 
 &lt;p&gt;If you have any great ideas for integrating with the &lt;a href=&quot;https://github.com/julianshapiro/libscore&quot;&gt;API&lt;/a&gt;, please let me know!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 22 Dec 2014 00:00:00 +1000</pubDate>
+        <pubDate>Mon, 22 Dec 2014 00:00:00 +1100</pubDate>
         <link>http://thomasdav.is/introducing-libscore</link>
         <guid isPermaLink="true">http://thomasdav.is/introducing-libscore</guid>
         
@@ -108,12 +108,12 @@
 
 &lt;p&gt;Regardless of your views about Javascript, it has made apps such as Facebook and Google Docs a pleasure to use. This post assumes Javascript apps are here to stay for quite a while longer, I will write another post about what it will take for a new paradigm to usurp the UI throne.&lt;/p&gt;
 
-&lt;p&gt;So if you accept the fact that they are here to stay, then which framework should you choose for your next application? &lt;/p&gt;
+&lt;p&gt;So if you accept the fact that they are here to stay, then which framework should you choose for your next application?&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Please don&amp;#39;t nitpick what I called a framework here&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;frameworks&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;angular&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;backbone&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;polymer&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;react&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;flight&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;spine&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;ember&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;knockout&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;agility&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;canjs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;maria&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;extjs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;sammyjs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;stapesjs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;kendo&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Please don't nitpick what I called a framework here&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;frameworks&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'angular'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backbone'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'polymer'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'react'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'flight'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'spine'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ember'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'knockout'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'agility'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'canjs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'maria'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'extjs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'sammyjs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'stapesjs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'kendo'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;I would like to posit a more important question, especially to those whose careers revolve around using any of these frameworks. &lt;/p&gt;
+&lt;p&gt;I would like to posit a more important question, especially to those whose careers revolve around using any of these frameworks.&lt;/p&gt;
 
 &lt;h3 id=&quot;which-will-stand-the-test-of-time&quot;&gt;Which will stand the test of time?&lt;/h3&gt;
 
@@ -129,7 +129,7 @@
 
 &lt;p&gt;I’m looking to hear well thought out opinions on the matter, what will frameworks really look like in the next 5-10 years?&lt;/p&gt;
 </description>
-        <pubDate>Tue, 02 Dec 2014 00:00:00 +1000</pubDate>
+        <pubDate>Tue, 02 Dec 2014 00:00:00 +1100</pubDate>
         <link>http://thomasdav.is/frontend-frameworks-which-will-stand-the-test-of-time</link>
         <guid isPermaLink="true">http://thomasdav.is/frontend-frameworks-which-will-stand-the-test-of-time</guid>
         
@@ -153,7 +153,7 @@
 &lt;p&gt;The definition of a distributed social network taken from wikipedia is&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;A distributed social network is an Internet social network service that is decentralized and distributed across different providers. &lt;/p&gt;
+  &lt;p&gt;A distributed social network is an Internet social network service that is decentralized and distributed across different providers.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;the-problem-is-distributing-a-distributed-social-network&quot;&gt;The problem is distributing a distributed social network&lt;/h3&gt;
@@ -166,7 +166,7 @@
   &lt;p&gt;Decentralizing things like this is never ever going to work. In terms of running it… my mom/sister/dad/cousin are not going to host this themselves. They might depend on me to do it, but even I’m not going to run a decentralized social network myself. There’s too much liability involved. Not to mention, it’s a pain in the ass.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Which was refuted by a few comments &lt;/p&gt;
+&lt;p&gt;Which was refuted by a few comments&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;You say decentralized services never work, and then give an example of the most successful one: email.   I don’t know why you are assuming that everyone will have to run their own. Also, it seems very cynical/naive to think that just because such systems aren’t currently working/won’t currently work with given social structures, that this will always be the case. Do you disagree?&lt;/p&gt;
@@ -196,7 +196,7 @@
 
 &lt;p&gt;So what if we could package DSNs servers in browser extensions themselves.&lt;/p&gt;
 
-&lt;p&gt;Users could then &lt;/p&gt;
+&lt;p&gt;Users could then&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Easily one click install, cross platform&lt;/li&gt;
@@ -224,7 +224,7 @@
 
 &lt;p&gt;Look forward to hearing from those interested!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 29 Oct 2012 00:00:00 +1000</pubDate>
+        <pubDate>Mon, 29 Oct 2012 00:00:00 +1100</pubDate>
         <link>http://thomasdav.is/the-problem-with-distributed-social-networks</link>
         <guid isPermaLink="true">http://thomasdav.is/the-problem-with-distributed-social-networks</guid>
         
@@ -241,19 +241,19 @@
         <title>The obligatory refutation of RPC (Meteor.js)</title>
         <description>&lt;p&gt;&lt;strong&gt;Note: This is a very old blog post from my younger years&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I have just been reading through all the discussion of Meteor.js on Hackernews and noticed that the discussion had very little critique.   So here are just a few articles to think about and at the very least this post hopes to facilitate some discussion of the cons of the Meteor.js approach. &lt;/p&gt;
+&lt;p&gt;I have just been reading through all the discussion of Meteor.js on Hackernews and noticed that the discussion had very little critique.   So here are just a few articles to think about and at the very least this post hopes to facilitate some discussion of the cons of the Meteor.js approach.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/viewer?a=v&amp;amp;q=cache:LylgA_fL8q4J:web.uvic.ca/~erikj/seng422/resources/rest_paper.pdf+&amp;amp;hl=en&amp;amp;pid=bl&amp;amp;srcid=ADGEESjYHfPLfpUiFhk4xLz6u9tSLXyTtcs6RVvV9ZdSqcNFjPNZ6iKmU5N7Ij0kYphZXmEqAL0VvVYGE9kT14vn7SveDWswWyL71LXn2neko4XEiM5PKaV_ZP5pH2kksIpaPgtcTgmA&amp;amp;sig=AHIEtbSBz804J-e96OlGr7I-LyV4ZDiLBQ&amp;amp;pli=1&quot;&gt;REST：An Alternative to RPC for Web Services Architecture&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;As a front-end developer this publication articulates well some of my strongest concerns. &lt;/p&gt;
+&lt;p&gt;As a front-end developer this publication articulates well some of my strongest concerns.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://news.ycombinator.com/item?id=2316005&quot;&gt;Now.js released on Hackernews - 400 days ago&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;A user &lt;code&gt;jerf&lt;/code&gt; gives an indepth critique and should proove a valuable insight.&lt;/p&gt;
+&lt;p&gt;A user &lt;code class=&quot;highlighter-rouge&quot;&gt;jerf&lt;/code&gt; gives an indepth critique and should proove a valuable insight.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -300,11 +300,11 @@
 
 &lt;h3 id=&quot;my-observation&quot;&gt;My observation&lt;/h3&gt;
 
-&lt;p&gt;Lately I’ve noticed when I wish to recall facts/knowledge I without hesitation open a new tab and perform a quick search.   Most of the time I find what I was after instantly.   What I find humorous is that when I go to recall the information my brain tells me to search and what keywords to search for.   &lt;/p&gt;
+&lt;p&gt;Lately I’ve noticed when I wish to recall facts/knowledge I without hesitation open a new tab and perform a quick search.   Most of the time I find what I was after instantly.   What I find humorous is that when I go to recall the information my brain tells me to search and what keywords to search for.&lt;/p&gt;
 
 &lt;p&gt;So effectively what I have done is when I first acquired the information I associated the “search” action with the memory instead of what I actually found.   Essentially creating a shortcut/middleman to a quality repository of information but possibly sacrificed through laziness my ability to actually absorb the information.&lt;/p&gt;
 
-&lt;p&gt;Using my memory normally I would generally look straight for the fact or information I was after.   This association of search terms is probably a symptom of laziness/convenience and I am unsure of whether it enhances or un-enhances my productivity.  &lt;/p&gt;
+&lt;p&gt;Using my memory normally I would generally look straight for the fact or information I was after.   This association of search terms is probably a symptom of laziness/convenience and I am unsure of whether it enhances or un-enhances my productivity.&lt;/p&gt;
 
 &lt;p&gt;A simple/personal example would be when learning a programming language I sometimes don’t really bother learning the syntax or methods as I know I can simply search for them.&lt;/p&gt;
 
@@ -312,7 +312,7 @@
 
 &lt;p&gt;Now this can be most convenient in some circumstances because I can quickly find huge repositories of quality information.&lt;/p&gt;
 
-&lt;p&gt;Though as a biological human having epiphanies is a fast way to let your conscious evolve.    But to have a basic epiphany I believe humans by accident/coincidence put together premises they have acquired over an arbitrary amount of time.   But due to me not really committing information directly to my memory I have less premises to call on when thinking.   &lt;/p&gt;
+&lt;p&gt;Though as a biological human having epiphanies is a fast way to let your conscious evolve.    But to have a basic epiphany I believe humans by accident/coincidence put together premises they have acquired over an arbitrary amount of time.   But due to me not really committing information directly to my memory I have less premises to call on when thinking.&lt;/p&gt;
 
 &lt;p&gt;I feel that my ability to be creative is impaired because all I am turning my memory into is the “Contents Page” of what I know.   So instead of a novel, I am a dictionary.&lt;/p&gt;
 

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Introducing Libscore</title>
+  <title>The obligatory refutation of RPC (Meteor.js)</title>
   <meta name="description" content="Thomas Davis is a front end web developer from Brisbane, Australia.   Works heavily in Javascript and CSS/HTML.
 ">
   <link href="/css/normalize.css" rel="stylesheet">
@@ -15,7 +15,7 @@
   <link href="/css/custom.css" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="canonical" href="http://thomasdav.is/introducing-libscore">
+  <link rel="canonical" href="http://thomasdav.is/the-obligatory-refutation-of-rpc">
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
   
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -41,7 +41,8 @@
 <li><a href="/blog">Blog</a></li>
 <li><a href="/media">Media</a></li>
 <li><a href="/opensource">Opensource</a></li>
-<li><a href="https://twitter.com/neutralthoughts">Twitter</a></li>
+<li><a href="https://twitter.com/thomasdav_is">Twitter</a></li>
+<li><a href="https://registry.jsonresume.org/thomasdavis">Resume</a></li>
 </ul>
 <div style="clear:both;"></div>
 </header>
@@ -72,23 +73,53 @@
     <div class="col-lg-8 col-lg-offset-2">
 
       <div class="post ">
-          <h2 class="post-title">Introducing Libscore</h2>
+          <h2 class="post-title">The obligatory refutation of RPC (Meteor.js)</h2>
 
         <article class="post-content">
-          <p>A few months ago I met a developer called <a href="http://julian.com">Julian Shapiro</a> who had just released <a href="http://julian.com/research/velocity/">Velocity.js</a>. After a bit of talking, he invited me to checkout this cool project he was working on called <a href="http://libscore.com">Libscore</a>.</p>
+          <p><strong>Note: This is a very old blog post from my younger years</strong></p>
 
-<blockquote>
-  <p>Every month, Libscore scans the the top million sites on the web to determine which third-party JavaScript libraries are installed on each site.</p>
-</blockquote>
+<p>I have just been reading through all the discussion of Meteor.js on Hackernews and noticed that the discussion had very little critique.   So here are just a few articles to think about and at the very least this post hopes to facilitate some discussion of the cons of the Meteor.js approach.</p>
 
-<p>He invited me to help out and I ended up building out the public API and also running the crawlers on sponsored Digital Ocean servers.</p>
+<hr />
 
-<p>Julian has wrote a much better post about Libscore titled <a href="https://medium.com/@Shapiro/introducing-libscore-com-be93165fa497">Introducing Libscore</a>.</p>
+<p><a href="https://docs.google.com/viewer?a=v&amp;q=cache:LylgA_fL8q4J:web.uvic.ca/~erikj/seng422/resources/rest_paper.pdf+&amp;hl=en&amp;pid=bl&amp;srcid=ADGEESjYHfPLfpUiFhk4xLz6u9tSLXyTtcs6RVvV9ZdSqcNFjPNZ6iKmU5N7Ij0kYphZXmEqAL0VvVYGE9kT14vn7SveDWswWyL71LXn2neko4XEiM5PKaV_ZP5pH2kksIpaPgtcTgmA&amp;sig=AHIEtbSBz804J-e96OlGr7I-LyV4ZDiLBQ&amp;pli=1">REST：An Alternative to RPC for Web Services Architecture</a></p>
 
-<p>If you have any great ideas for integrating with the <a href="https://github.com/julianshapiro/libscore">API</a>, please let me know!</p>
+<p>As a front-end developer this publication articulates well some of my strongest concerns.</p>
+
+<hr />
+
+<p><a href="http://news.ycombinator.com/item?id=2316005">Now.js released on Hackernews - 400 days ago</a></p>
+
+<p>A user <code class="highlighter-rouge">jerf</code> gives an indepth critique and should proove a valuable insight.</p>
+
+<hr />
+
+<p><a href="http://armstrongonsoftware.blogspot.com.au/2008/05/road-we-didnt-go-down.html">Erlang - This the road we didn’t go down</a></p>
+
+<p>More food for thought</p>
+
+<hr />
+
+<h3 id="my-thoughts">My thoughts</h3>
+
+<p>I just wrote this up in a matter of minutes so can’t do the duty of clarifying any refutations.</p>
+
+<p>Though my quick points would be</p>
+
+<ul>
+  <li>Clients are now more tightly coupled to servers and actually influence the servers development</li>
+  <li>Versioning of data/API’s becomes more complex</li>
+  <li>Security becomes more complex</li>
+  <li>We should be striving towards improving our understanding of REST to tackle the problems or at least theorizing how RPC can solve them.</li>
+  <li><a href="http://nowjs.com/">Now.js</a> and <a href="https://github.com/substack/dnode">dnode</a> have been around for a while now.  They have already managed to grow a culture of negative sentiments</li>
+</ul>
+
+<p>Hopefully some experts chime in and give us the other side of the story</p>
+
+<p>Thanks for reading!</p>
 
 
-          <p class="post-meta" style="margin-bottom: 20px; font-size: 95%; font-style: italic; ">Posted on Dec 22, 2014</p>
+          <p class="post-meta" style="margin-bottom: 20px; font-size: 95%; font-style: italic; ">Posted on Apr 11, 2012</p>
         </article>
       </div>
       <hr />
@@ -98,8 +129,8 @@
       <script type="text/javascript">
           /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
           var disqus_shortname = 'thomasdavishome'; // required: replace example with your forum shortname
-          var disqus_identifier = 'introducing-libscore';
-          var disqus_url = 'http://thomasdav.is/introducing-libscore';
+          var disqus_identifier = 'the-obligatory-refutation-of-rpc';
+          var disqus_url = 'http://thomasdav.is/the-obligatory-refutation-of-rpc';
           /* * * DON'T EDIT BELOW THIS LINE * * */
           (function() {
               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -120,8 +151,8 @@
       <script type="text/javascript">
           /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
           var disqus_shortname = 'thomasdavishome'; // required: replace example with your forum shortname
-          var disqus_identifier = 'introducing-libscore';
-          var disqus_url = 'http://thomasdav.is/introducing-libscore';
+          var disqus_identifier = 'the-obligatory-refutation-of-rpc';
+          var disqus_url = 'http://thomasdav.is/the-obligatory-refutation-of-rpc';
           /* * * DON'T EDIT BELOW THIS LINE * * */
           (function() {
               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
