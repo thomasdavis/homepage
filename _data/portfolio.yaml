@@ -30,63 +30,15 @@
   role: Founder
   description: I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.
 
-
-- name: Drone Hire
-  url: http://www.dronehire.org
-  role: Co-Founder
-  description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
-
-
-- name: Git Gossip
-  url: https://gitgossip.com
-  role: Founder
-  description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
-
-
-- name: Colons.io
-  url: https://colons.io
-  role: Co-Founder
-  description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
-
-- name: Thinking Remote
-  url: https://thinkingremote.com
-  role: Co-Founder
-  description: An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres.
-
-
 - name: The Day We Fight Back
   url: https://thedaywefightback.org/
   role: Volunteer
   description: February 11th 2014 is the day the Internet rises up to fight back against mass surveillance. 
 
-- name: Stop The Spies
-  role: Volunteer
-  url: https://stopthespies.org/
-
-- name: Approachio
-  role: Co-Founder
-  url: https://approachio.com
-  description: Approachio is your standard question and answer site but focusing on quantifiable answers. Submit your own answers and optionally include your justifications. Over time we should see what the average answer is. You can also sort and filter by what people estimate and learn more about why they selected their answers.
-
-- name: Kalei Style Guide
-  role: Founder
-  url: http://kaleistyleguide.com
-  description: This project aims at making sure your style sheets are fully documented whilst being synchronized with your webpages styles. To do this it actually uses your live stylesheets in so that at anytime you can review how your styleguide looks.
-
-- name: Mention Bin
-  role: Founder
-  url: https://mentionbin.com/
-  description: Mention bin allows anyone to create a campaign page, that lets people target their legislators with a custom message
-
 - name: Stop Watching Us
   role: Volunteer
   url: https://rally.stopwatching.us
   description: On October 26th, the 12th anniversary of the signing of the US Patriot Act, we're taking the next step and holding the largest rally yet against NSA surveillance.
-
-- name: 1984Day
-  role: Volunteer
-  url: https://archive.1984day.com
-  description: This Sunday – 8/4 – Rally Against Unconstitutional Surveillance Join thousands of participants in 1984 Day rallies around the country
 
 - name: Defund The NSA
   role: Volunteer
