@@ -59,7 +59,7 @@ title: Open Source
 <script>
   var displayUserRepos = function() {
 
-      $.ajax('http://d2a0f5wdso4x2s.cloudfront.net/?username=thomasdavis', {
+      $.ajax('https://d2a0f5wdso4x2s.cloudfront.net/?username=thomasdavis', {
           dataType: "json",
           success: function(repos) {
               var sortedrepos = _.sortBy(repos.repos, function(repo) {
